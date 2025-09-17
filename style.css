@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0a0f2c;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* ...........navbar.......... */
+.navbar {
+  background: rgba(13, 27, 58, 0.95);
+  backdrop-filter: blur(6px);
+}
+
+.navbar a {
+  color: white !important;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #0ef !important;
+}
+
+/* ..........home................ */
+
+.hero {
+  background: linear-gradient(135deg, #0a0f2c, #141b3d);
+  padding: 100px 0;
+}
+
+.hero-img {
+  border-radius: 50%;
+  border: 3px solid #0ef;
+  box-shadow: 0 0 15px #0ef;
+}
+
+.btn-primary {
+  background-color: #0ef;
+  border: none;
+  color: black;
+  font-weight: 600;
+
+}
+
+.btn-primary:hover {
+  background-color: #00d4e0;
+  box-shadow: 0 0 20px #0ef;
+}
+
+/* ............about.......... */
+#about p {
+  font-size: 1rem;
+  line-height: 30px;
+  word-spacing: 6px;
+}
+
+.icons a i:hover {
+  transform: scale(1.2);
+}
+
+.section-title {
+  color: #0ef;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.about-main i:hover {
+  color: #0ef;
+  transform: scale(1.2);
+}
+
+/* ............skill............ */
+.skill-card {
+  background: #101935;
+  border-radius: 15px;
+  padding: 30px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px #0ef;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #0ef;
+}
+
+.card-title {
+  color: midnightblue;
+}
+
+/* .............contact............ */
+.form-control {
+  /* background-color: #101935; */
+  border: 1px solid #0ef;
+  color: white;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 10px #0ef;
+  border-color: #0ef;
+}
+
+/* ............footer............ */
+footer {
+  background: #0d1b3a;
+  padding: 20px 0;
+}
